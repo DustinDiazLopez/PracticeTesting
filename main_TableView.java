@@ -58,7 +58,7 @@ public class main_TableView extends Application {
         products.add(new TableView_Product("Laptop", 859.99, 20));
         products.add(new TableView_Product("Bouncy Ball", 2.49, 198));
         products.add(new TableView_Product("Toilet", 99.99, 74));
-        products.add(new TableView_Product("The Notebook", 5.99, 12));
+        products.add(new TableView_Product("The Notebook DVD", 5.99, 12));
         products.add(new TableView_Product("Corn", 1.49, 846));
         return products;
     }
