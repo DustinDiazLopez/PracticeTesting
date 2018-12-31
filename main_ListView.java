@@ -10,9 +10,6 @@ import javafx.scene.control.SelectionMode;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
-import java.awt.*;
-import java.util.Observable;
-
 public class main_ListView extends Application {
 
     Stage window;
