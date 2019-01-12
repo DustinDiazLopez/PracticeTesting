@@ -6,9 +6,7 @@ import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 import javafx.scene.control.Button;
 
-public class
-
-Main_Closing_Correctly extends Application {
+public class Main_Closing_Correctly extends Application {
 
     Stage window;
     Button button;
