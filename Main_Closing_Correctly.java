@@ -1,6 +1,5 @@
 package GUI.PracticeTesting;
 
-import GUI.ConfirmBox;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.layout.StackPane;

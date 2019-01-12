@@ -1,6 +1,7 @@
-package GUI;
+package GUI.PracticeTesting;
 
 import javafx.geometry.Pos;
+import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
@@ -38,7 +39,10 @@ public class ConfirmBox {
         });
 
         VBox layout = new VBox(10);
-        layout.getChildren().addAll(label, yesButton, noButton);
+        HBox layButton = new HBox(10);
+        layButton.getChildren().addAll(yesButton, noButton);
+        layButton.setAlignment(Pos.CENTER);
+        layout.getChildren().addAll(label, layButton);
         layout.setAlignment(Pos.CENTER);
 
         Scene scene = new Scene(layout);
