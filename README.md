@@ -1,2 +1,2 @@
-# PracticeTesting
-Burp
+# GUI Practice
+JavaFX
